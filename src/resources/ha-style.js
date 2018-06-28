@@ -24,10 +24,10 @@ documentContainer.innerHTML = `<custom-style>
       --disabled-text-color: #bdbdbd;
 
       /* main interface colors */
-      --primary-color: #03a9f4;
-      --dark-primary-color: #0288d1;
-      --light-primary-color: #b3e5fC;
-      --accent-color: #ff9800;
+      --primary-color: #339966;
+      --dark-primary-color: #206040;
+      --light-primary-color: #79d2a6;
+      --accent-color: #0066cc;
       --divider-color: rgba(0, 0, 0, .12);
 
       /* states and badges */
@@ -58,9 +58,9 @@ documentContainer.innerHTML = `<custom-style>
       /* for label-badge */
       --label-badge-background-color: white;
       --label-badge-text-color: rgb(76, 76, 76);
-      --label-badge-red: #DF4C1E;
-      --label-badge-blue: #039be5;
-      --label-badge-green: #0DA035;
+      --label-badge-red: #0066cc;
+      --label-badge-blue: #0066cc;
+      --label-badge-green: #339966;
       --label-badge-yellow: #f4b400;
       --label-badge-grey: var(--paper-grey-500);
 

@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(name='trixie-frontend',
-      version='20180628.0',
+      version='20180628.1',
       description='The Trixie frontend',
       url='https://github.com/charbelsarkis/trixie-frontend',
-      author='The Home Assistant Authors',
-      author_email='hello@home-assistant.io',
+      author='Trixie Home Assistant Authors',
+      author_email='hello@trixie.io',
       license='Apache License 2.0',
       packages=find_packages(include=[
           'hass_frontend',

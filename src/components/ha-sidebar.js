@@ -101,7 +101,7 @@ class HaSidebar extends
     </style>
 
     <app-toolbar>
-      <div main-title="">Home Assistant</div>
+      <div main-title="">Trixie Control Panel</div>
       <paper-icon-button icon="hass:chevron-left" hidden$="[[narrow]]" on-click="toggleMenu"></paper-icon-button>
     </app-toolbar>
 
@@ -249,6 +249,8 @@ class HaSidebar extends
 
   handleLogOut() {
     this.fire('hass-logout');
+    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    window.location.replace("http://www.trixie.io");
   }
 }
 
