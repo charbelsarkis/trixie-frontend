@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='trixie-frontend',
-      version='20180627.0',
+      version='20180628.0',
       description='The Trixie frontend',
       url='https://github.com/charbelsarkis/trixie-frontend',
       author='The Home Assistant Authors',
