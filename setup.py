@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-setup(name='home-assistant-frontend',
+setup(name='trixie-frontend',
       version='20180627.0',
-      description='The Home Assistant frontend',
-      url='https://github.com/home-assistant/home-assistant-polymer',
+      description='The Trixie frontend',
+      url='https://github.com/charbelsarkis/trixie-frontend',
       author='The Home Assistant Authors',
       author_email='hello@home-assistant.io',
       license='Apache License 2.0',
